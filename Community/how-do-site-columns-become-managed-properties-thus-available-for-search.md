@@ -24,21 +24,19 @@ If you're new to managed properties, or if it's been a while since you worked wi
 * [Crawled Property](glossary.md#crawled-property): information/metadata about an item (like a document or URL) that is discovered and stored when search crawls the data on SharePoint
 * [Managed Property](glossary.md#managed-property): a unit used in search that is mapped to (associated with) one or more crawled properties to make the information in the crawled properties accessible in search; Microsoft creates default managed properties, but you can create custom managed properties as well
 
-For more details about the SharePoint search schema visit [Microsoft official documentation](/sharepoint/manage-search-schema) to learn more.
-
-Also head over here to read more about [PnP Modern Search Solution](https://microsoft-search.github.io/pnp-modern-search/), I will be using this to show a quick usage of Site Columns in Search.
+Site columns and managed properties are used in both the [Microsoft SharePoint search schema](/sharepoint/manage-search-schema) and in the [PnP Modern Search Solution](https://microsoft-search.github.io/pnp-modern-search/).
 
 ## How to create a site column
 
 ### Where
 
-A Site Column can be created generally in two places:
+A site column can be created:
 
-1. In the [Content Type Hub](glossary.md#content-type-hub) - Using the Content Type Hub will make the column available to all sites in your SharePoint tenant.
-2. In the [Site Collection](glossary.md#site-collection) (or modern site - which is a Site Collection) where you will be using the column
+* in the [Content Type Hub](glossary.md#content-type-hub), making the site column available to all sites in your SharePoint tenant.
+* at the [site](glossary.md#site) level, which means the site column will be available everywhere on that particular site.
 
 > [!NOTE]
-> This article doesn't discuss in detail the Information Architecture decisions about when and where to create Site Columns.
+> The decision about where to create a site column is outside the scope of this article, but you can learn more about [content types](/sharepoint/create-customize-content-type) and [metadata architecture](/sharepoint/information-architecture-modern-experience#metadata-architecture) to determine where to create a particular site column.
 
 ### Using What
 
