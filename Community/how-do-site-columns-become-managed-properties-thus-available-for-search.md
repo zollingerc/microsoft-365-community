@@ -2,6 +2,7 @@
 title: How Do Site Columns Become Managed Properties - Thus Available for Search?
 ms.date: 4/15/2021
 author: JimmyHang
+contributing-author: zollingerc
 ms.reviewer: pamgreen
 manager: pamgreen
 ms.topic: concept-article
@@ -16,12 +17,12 @@ ms.collection: M365Community
 
 [!INCLUDE [content-disclaimer](includes/content-disclaimer.md)]
 
-Before we jump to the topic at hand, a little recap of the terminology involved:
+If you're new to managed properties, or if it's been a while since you worked with them, make sure you have a general understanding of these foundational concepts:
 
-* [Metadata](glossary.md#metadata): means information about something, in SharePoint usually information about documents, pages or list items
-* [Site Column](glossary.md#site-column): is a metadata column that has been created for a whole site collection, thus available to be used by any list/library in that site.
-* [Crawled Property](glossary.md#crawled-property): A crawled property is content and metadata that is extracted from an item, such as a document or a URL, during a crawl.
-* [Managed Property](glossary.md#managed-property): Is a list of useful content and metadata included in the search index, we normally map useful crawled properties to managed properties to make search more easy.
+* [Metadata](glossary.md#metadata): data about data - in the context of Sharepoint, examples of metadata for a document are the title and the last date on which the document was modified
+* [Site Column](glossary.md#site-column): a column that has been configured at the site level and can be used in multiple lists and libraries
+* [Crawled Property](glossary.md#crawled-property): information/metadata about an item (like a document or URL) that is discovered and stored when search crawls the data on SharePoint
+* [Managed Property](glossary.md#managed-property): a unit used in search that is mapped to (associated with) one or more crawled properties to make the information in the crawled properties accessible in search; Microsoft creates default managed properties, but you can create custom managed properties as well
 
 For more details about the SharePoint search schema visit [Microsoft official documentation](/sharepoint/manage-search-schema) to learn more.
 
