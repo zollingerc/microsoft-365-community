@@ -26,30 +26,24 @@ If you're new to managed properties, or if it's been a while since you worked wi
 
 Site columns and managed properties are used in both the [Microsoft SharePoint search schema](/sharepoint/manage-search-schema) and in the [PnP Modern Search Solution](https://microsoft-search.github.io/pnp-modern-search/).
 
-## How to create a site column
-
-### Where
+## Create a site column
 
 A site column can be created:
 
 * in the [Content Type Hub](glossary.md#content-type-hub), making the site column available to all sites in your SharePoint tenant.
-* at the [site](glossary.md#site) level, which means the site column will be available everywhere on that particular site.
+* at the [site](glossary.md#site) level, which means the site column will be available everywhere on that particular site. (The example in this article will create a column at the site level.)
 
 > [!NOTE]
-> The decision about where to create a site column is outside the scope of this article, but you can learn more about [content types](/sharepoint/create-customize-content-type) and [metadata architecture](/sharepoint/information-architecture-modern-experience#metadata-architecture) to determine where to create a particular site column.
+> The decision about where to create a site column is outside the scope of this article, but you can learn more about [content types](/sharepoint/create-customize-content-type) and [metadata architecture](/sharepoint/information-architecture-modern-experience#metadata-architecture) to determine the best strategy for a particular site column.
 
-### Using What
+While there are a few methods outside the user interface that can be used to create site columns (PnP PowerShell and Site Scripts & Site Designs, for example), this article will focus on creating site columns within the SharePoint user interface.
 
-There are a lot of tools you can use to create a Site Column
+### Process
 
-1. Manually clicking in the SharePoint page, this is what we'll be using in this article
-2. Using PnP PowerShell
-3. Using Site Scripts & Site Designs
-4. Using code
+* On your SharePoint site, select the gear, then Site information, then View all site settings. FIG 01 FIG 02
+* Select Site columns. FIG 03
+* Select Create. FIG 04 RIGHT HERE
 
-### How
-
-In SharePoint, navigate to your Site Settings and choose Site Columns. The Site Columns page will contain all the metadata columns currently available in your site, except for hidden system columns.
 
 ![Site settings page.](media/how-do-site-columns-become-managed-properties-thus-available-for-search/sposearch01.png)
 
