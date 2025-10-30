@@ -42,16 +42,20 @@ While there are a few methods outside the user interface that can be used to cre
 
 * On your SharePoint site, select the gear, then Site information, then View all site settings. FIG 01 FIG 02
 * Select Site columns. FIG 03
-* Select Create. FIG 04 RIGHT HERE
+* Select Create. FIG 04 
+Any column type that you would use to add a column directly to a list or library can be used when you create a site column.
 
 
-![Site settings page.](media/how-do-site-columns-become-managed-properties-thus-available-for-search/sposearch01.png)
+![Site settings page.](media/how-do-site-columns-become-managed-properties-thus-available-for-search/sposearch01.png) - delete this when putting in new figs
 
 Choose **Create**
 
 ![Create new site column.](media/how-do-site-columns-become-managed-properties-thus-available-for-search/sposearch02.png)
 
-A Site Column can be created for many different information types, including: Single line of text, Number, Date and Time, etc. In fact, all the same column types you might add directly to a list or library are available to you.
+A Site Column can be created for many different information types, including: Single line of text, Number, Date and Time, etc. In fact, all the same column types you might add directly to a list or library are available to you. The configuration options you see will depend on the type of column you choose. 
+
+> [!TIP]
+> When you are creating a custom site column, it's a good idea to put it in a group you create to organize your custom columns. If you start this group name with a "." or "_" character, your group of custom columsn will appear at the top of the list in the future. (In the example shown, the group is created; after it is created, it would appear in the Existing group list. FIG 05
 
 ![New site column creation.](media/how-do-site-columns-become-managed-properties-thus-available-for-search/sposearch03.png)
 
